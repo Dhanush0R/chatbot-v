@@ -1,0 +1,286 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! Welcome to Fitness Coach. I'm here to help you achieve your fitness goals. How can I assist you today?",
+        "Hi there! Excited to help you on your fitness journey. What can I do for you?",
+        "Hey! Welcome to Fitness Coach. Ready to work towards a healthier you?",
+        "Good day! I'm your virtual fitness coach. How can we make today a step towards a healthier lifestyle?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Until next time"
+      ],
+      "responses": [
+        "Goodbye! If you have more questions or need assistance in the future, feel free to come back. Stay active!",
+        "See you later! Remember, consistency is key. Take care and stay motivated!",
+        "Bye for now! If you ever need workout tips or nutrition advice, I'm just a message away. Stay healthy!",
+        "Until next time! Keep pushing towards your fitness goals. I'm here whenever you need guidance."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "You're welcome! If you have more fitness questions or need a workout plan, feel free to ask. Keep up the good work!",
+        "No problem! If there's anything else you'd like to know about fitness or nutrition, just let me know. Happy to help!",
+        "Glad I could assist you! Remember, consistency and dedication lead to great results. Thanks for reaching out!",
+        "You're welcome! If you ever need motivation or want to explore new workout routines, I'm here for you. Stay fit!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help me with my fitness plan",
+        "I'm new to fitness"
+      ],
+      "responses": [
+        "Absolutely! Whether you're new to fitness or looking to level up your routine, I'm here to help. What are your fitness goals?",
+        "Of course! I can assist you with creating a personalized fitness plan. Let's start by discussing your health goals and preferences.",
+        "Sure thing! If you need guidance on workouts, nutrition, or anything related to fitness, just let me know. What specifically would you like assistance with?",
+        "I'm here to help you on your fitness journey. Whether you're a beginner or an experienced athlete, what can I assist you with today?"
+      ]
+    },
+    {
+      "tag": "fitness_goals",
+      "patterns": [
+        "I want to lose weight",
+        "Build muscle",
+        "Improve flexibility",
+        "Enhance endurance"
+      ],
+      "responses": [
+        "Great! Let's work on a plan to help you achieve your weight loss goals. We'll focus on a combination of cardio and strength training. Ready to get started?",
+        "Awesome! For muscle building, we'll incorporate strength training exercises. Are you looking for a home workout or gym routine?",
+        "Fantastic! Improving flexibility is essential. I'll recommend a mix of stretching exercises. How much time can you dedicate to flexibility training each day?",
+        "Excellent choice! Endurance training is key for overall fitness. We'll include activities like running or cycling. What's your current fitness level?"
+      ]
+    },
+    {
+      "tag": "workout_plan",
+      "patterns": [
+        "Can you suggest a workout plan?",
+        "Give me a workout routine",
+        "I need an exercise plan"
+      ],
+      "responses": [
+        "Certainly! I'll create a personalized workout plan for you. To start, could you let me know your fitness level (beginner, intermediate, advanced) and the number of days you can commit to exercising each week?",
+        "Of course! A customized workout plan is on the way. Before we begin, do you prefer home workouts or are you planning to hit the gym?",
+        "Absolutely! I'll design a workout plan tailored to your goals. To begin, share your preferred workout duration per session and any specific exercises you enjoy or want to include."
+      ]
+    },
+    {
+      "tag": "nutrition_advice",
+      "patterns": [
+        "Tell me about nutrition",
+        "Give me diet tips",
+        "What should I eat?"
+      ],
+      "responses": [
+        "Nutrition is crucial for your fitness journey. Let's start by discussing your dietary preferences and any specific restrictions you may have. What's a typical day of meals for you?",
+        "Absolutely! A healthy diet complements your fitness routine. Could you share any dietary preferences or restrictions you'd like me to consider while providing advice?",
+        "Sure thing! Nutrition plays a significant role in achieving your fitness goals. Are there any specific dietary preferences or restrictions I should be aware of before offering advice?"
+      ]
+    },
+    {
+      "tag": "progress_tracking",
+      "patterns": [
+        "How do I track my progress?",
+        "Monitor my fitness",
+        "Progress tracking tools"
+      ],
+      "responses": [
+        "Excellent question! Tracking progress is important. You can use tools like fitness apps, keep a workout journal, and take regular measurements. How would you prefer to track your progress?",
+        "Great! To monitor your fitness journey, consider using apps that log your workouts and track your nutrition. Additionally, taking regular progress photos can be motivating. What method are you most comfortable with?",
+        "Fantastic! Tracking progress keeps you motivated. Fitness apps, journals, and photos are effective tools. Which one resonates with you, and are you already using any of these methods?"
+      ]
+    },
+    {
+      "tag": "water_intake",
+      "patterns": [
+        "How much water should I drink?",
+        "Importance of hydration",
+        "Water intake recommendations"
+      ],
+      "responses": [
+        "Staying hydrated is crucial! A general guideline is to aim for at least 8 glasses (64 ounces) of water per day. However, individual needs may vary. Let's discuss your activity level and lifestyle for personalized advice."
+      ]
+    },
+    {
+      "tag": "warm_up",
+      "patterns": [
+        "Do I need to warm up?",
+        "Importance of warm-up",
+        "Warm-up exercises"
+      ],
+      "responses": [
+        "Absolutely! Warming up is essential to prevent injuries and prepare your body for exercise. I can suggest dynamic stretches and warm-up routines based on your fitness level."
+      ]
+    },
+    {
+      "tag": "cool_down",
+      "patterns": [
+        "Should I cool down after a workout?",
+        "Cool-down exercises",
+        "Benefits of cooling down"
+      ],
+      "responses": [
+        "Yes, cooling down is important! It helps reduce muscle soreness and aids in flexibility. I can recommend cool-down exercises tailored to your workout intensity."
+      ]
+    },
+    {
+      "tag": "rest_days",
+      "patterns": [
+        "How many rest days do I need?",
+        "Importance of rest",
+        "Rest day recommendations"
+      ],
+      "responses": [
+        "Rest is crucial for muscle recovery. I'll help you create a balanced workout schedule with appropriate rest days based on your fitness goals and activity level."
+      ]
+    },
+    {
+      "tag": "exercise_form",
+      "patterns": [
+        "Importance of correct form",
+        "How to maintain proper form",
+        "Exercise form tips"
+      ],
+      "responses": [
+        "Maintaining proper form is key to preventing injuries and maximizing results. I can guide you through correct form for various exercises. Let me know which ones you're interested in."
+      ]
+    },
+    {
+      "tag": "supplements",
+      "patterns": [
+        "Should I take supplements?",
+        "Fitness supplements advice",
+        "Best supplements for workouts"
+      ],
+      "responses": [
+        "Supplements can complement your fitness journey. Let's discuss your goals, and I can provide advice on suitable supplements. It's important to prioritize whole foods first."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I lack motivation",
+        "How to stay motivated",
+        "Motivational tips"
+      ],
+      "responses": [
+        "Staying motivated can be challenging. Let's explore ways to keep you inspired, set realistic goals, and celebrate your achievements. Remember, progress is progress, no matter how small!"
+      ]
+    },
+    {
+      "tag": "injury_prevention",
+      "patterns": [
+        "Preventing injuries during workouts",
+        "Common workout injuries",
+        "Tips for injury prevention"
+      ],
+      "responses": [
+        "Injury prevention is crucial. I can provide guidance on proper warm-up, cooldown, and exercises to strengthen specific areas. If you have any specific concerns, let me know."
+      ]
+    },
+    {
+      "tag": "home_workouts",
+      "patterns": [
+        "Effective home workouts",
+        "Home workout routines",
+        "Exercises without equipment"
+      ],
+      "responses": [
+        "Absolutely! You can achieve great results with home workouts. I'll tailor a routine for you based on available space and equipment. Let me know your preferences."
+      ]
+    },
+    {
+      "tag": "nutrition_supplements",
+      "patterns": [
+        "Nutritional supplements for fitness",
+        "Best supplements for muscle gain",
+        "Supplements for weight loss"
+      ],
+      "responses": [
+        "Nutritional supplements can support your fitness goals. Let's discuss your specific objectives, and I can recommend supplements that align with your needs and preferences."
+      ]
+    },
+    {
+      "tag": "fitness_events",
+      "patterns": [
+        "Fitness events near me",
+        "Participating in fitness challenges",
+        "Upcoming fitness competitions"
+      ],
+      "responses": [
+        "Participating in fitness events can be exciting! I can help you find local events, suggest virtual challenges, or provide information on upcoming competitions. What type of event are you interested in?"
+      ]
+    },
+    {
+      "tag": "mind_body_connection",
+      "patterns": [
+        "Mind-body connection in fitness",
+        "Benefits of mindfulness in exercise",
+        "Mindful workouts"
+      ],
+      "responses": [
+        "The mind-body connection is powerful in fitness. I can guide you through mindfulness practices during workouts, enhancing your overall experience and results."
+      ]
+    },
+    {
+      "tag": "fitness_gear",
+      "patterns": [
+        "Essential fitness gear",
+        "Must-have workout equipment",
+        "Fitness clothing recommendations"
+      ],
+      "responses": [
+        "Having the right gear enhances your workout experience. I can recommend essential fitness gear, suitable workout attire, and equipment based on your preferences and workout style."
+      ]
+    },
+    {
+      "tag": "post_workout_recovery",
+      "patterns": [
+        "Post-workout recovery tips",
+        "Recovery techniques after exercise",
+        "Importance of recovery"
+      ],
+      "responses": [
+        "Recovery is vital for optimal performance. I can provide post-workout recovery tips, including stretching routines, hydration, and rest strategies. What's your preferred recovery approach?"
+      ]
+    },
+    {
+      "tag": "fitness_myths",
+      "patterns": [
+        "Common fitness myths",
+        "Debunking workout myths",
+        "Fitness misconceptions"
+      ],
+      "responses": [
+        "There are many fitness myths out there. Let's debunk them and focus on evidence-based practices for effective workouts. Do you have any specific myths you'd like to discuss?"
+      ]
+    }
+  ]
+}
+
