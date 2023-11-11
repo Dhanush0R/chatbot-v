@@ -2,7 +2,7 @@ from tkinter import *
 from chat import get_response, bot_name
 
 BG_GRAY = "#ABB2B9"
-BG_COLOR = "#17202A"
+BG_COLOR = "#192655"
 TEXT_COLOR = "#EAECEE"
 
 FONT = "Helvetica 14"
@@ -24,7 +24,7 @@ class ChatApplication:
         
         # head label
         head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOR,
-                           text="Welcome", font=FONT_BOLD, pady=10)
+                           text="Welcome to Fitness Coaching", font=FONT_BOLD, pady=10)
         head_label.place(relwidth=1)
         
         # tiny divider
@@ -35,19 +35,21 @@ class ChatApplication:
         self.text_widget = Text(self.window, width=20, height=2, bg=BG_COLOR, fg=TEXT_COLOR,
                                 font=FONT, padx=5, pady=5)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
+
         self.text_widget.configure(cursor="arrow", state=DISABLED)
         
         # scroll bar
-        scrollbar = Scrollbar(self.text_widget)
-        scrollbar.place(relheight=1, relx=0.974)
-        scrollbar.configure(command=self.text_widget.yview)
-        
+        # scrollbar = Scrollbar(self.text_widget)
+        # scrollbar.place(relheight=1, relx=0.974)
+        #
+        # scrollbar.configure(command=self.text_widget.yview)
+
         # bottom label
         bottom_label = Label(self.window, bg=BG_GRAY, height=80)
         bottom_label.place(relwidth=1, rely=0.825)
         
         # message entry box
-        self.msg_entry = Entry(bottom_label, bg="#2C3E50", fg=TEXT_COLOR, font=FONT)
+        self.msg_entry = Entry(bottom_label, bg="#3876BF", fg=TEXT_COLOR, font=FONT)
         self.msg_entry.place(relwidth=0.74, relheight=0.06, rely=0.008, relx=0.011)
         self.msg_entry.focus()
         self.msg_entry.bind("<Return>", self._on_enter_pressed)
@@ -73,7 +75,8 @@ class ChatApplication:
         
         msg2 = f"{bot_name}: {get_response(msg)}\n\n"
         self.text_widget.configure(state=NORMAL)
-        self.text_widget.insert(END, msg2)
+        self.text_widget.insert(END, msg2, "tag-right")
+        self.text_widget.tag_configure("tag-right", foreground="yellow")
         self.text_widget.configure(state=DISABLED)
         
         self.text_widget.see(END)
