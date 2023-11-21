@@ -8,6 +8,7 @@ TEXT_COLOR = "#EAECEE"
 FONT = "Helvetica 14"
 FONT_BOLD = "Helvetica 13 bold"
 
+
 class ChatApplication:
     
     def __init__(self):
